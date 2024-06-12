@@ -1,0 +1,26 @@
+{
+  "name": "spotifyplaylistdownloader",
+  "version": "1.0.0",
+  "description": "a javascript app that lets you download spotify playlist to mp3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kvmaigting",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "yt-dlp": "^11.6.0",
+    "ytdl-mp3": "^3.4.1",
+    "ejs": "^3.1.9"
+  }
+}
